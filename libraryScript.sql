@@ -9,7 +9,7 @@ column  name and datatype optional constriant,
 constriant constriant_name constriant_type(column_name)
 ); **/
 use library;
-/**
+
  create table Users (
 UserId             Integer              NOT NULL,
 FullName           varchar(60)          NOT NULL,
@@ -28,7 +28,7 @@ constraint         Users_PK			    PRIMARY KEY(UserId)
  
  ); 
  
-/**
+
  create table Book_On_Loan  (
 LoanId             Integer                NOT NULL,
 DateCollected    date                 NOT NULL,
@@ -44,7 +44,7 @@ constraint      BookOnLoan_Staff_FK   foreign key(StaffId)
 constraint      BookOnLoan_Book_FK    foreign key(BookId)
                   references          Books(BookId)
 ); 
-**/
+
 
 create table Staff (
  StaffId            Integer            NOT NULL,

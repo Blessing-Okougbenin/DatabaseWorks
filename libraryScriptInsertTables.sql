@@ -1,6 +1,6 @@
 --- Insert Tables
 Use library;
-/**
+
 -- User Data
 insert intO Users values 
   (1, 'Raphael Urling', 'F', '0 Hayes Pass', '612-399-9058'),
@@ -24,6 +24,7 @@ insert intO Users values
   (19, 'Hashim Jeeks', 'M', '54 Sommers Circle', '671-649-3037'),
   (20, 'Frederigo Husthwaite', 'M', '9735 Starling Lane', '275-168-6219');
   
+  -- Books Data
   insert into Books values
 (1,	'Killer Stories',	'Dwayne Caff'),
 (2,	'Sheep Ba',	'Guilbert Robrow'),
@@ -45,7 +46,8 @@ insert intO Users values
 (18,	'Voltsillam',	'Kara-lynn Hutchinges'),
 (19,	'Lotlux',	'Karina Kimmel'),
 (20,	'Bytecard',	'Kara-lynn Hutchinges');
-  
+ 
+ -- book_on_loan data  
   insert into book_on_loan values
 (1, '2022-09-15', '2022-09-15', 19, 4, 17),
 (2, '2022-09-15', '2022-09-15', 19, 4, 17),
@@ -67,8 +69,9 @@ insert intO Users values
 (18, '2022-09-15', '2022-09-15', 14, 8, 14),
 (19, '2022-09-15', '2022-09-15', 13, 4, 12),
 (20, '2022-09-15', '2022-09-15', 17, 9, 8);
-  
- /**  insert into staff values
+
+ -- Staff data  
+ insert into staff values
 (1, 'Lacy Alenov', 'lalenov0@si.edu', '526-787-2683', '10 Anderson Road', 'Librarian'),
 (2, 'Corrie Matysik', 'cmatysik1@ibm.com', '488-708-7112', '9 Derek Trail', 'Security Guard'),
 (3, 'Celinda Penddreth', 'cpenddreth2@google.ru', '867-478-5842', '89683 Arkansas Crossing', 'Librarian'),
